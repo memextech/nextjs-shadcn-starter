@@ -1,0 +1,44 @@
+card_image: https://sample.memexdata.com/universe_images/nextjs-space.jpeg
+created_at: 2025-02-16 19:09:39.580000
+creator_id: unknown
+deployment:
+  last_deployed: null
+  type: null
+  url: ''
+description: 'A polished Next.js & shadcn starter for modern landing pages, featuring
+  flexible components, fast builds, and customization. All open source '
+domain: ''
+features:
+- ''
+getting_started_screen: false
+getting_started_screen_index: 0
+git:
+  branch: main
+  remote: origin
+  url: https://github.com/davidvgilmore/memex-nextjs-shadcn-starter.git
+hero_image: ''
+icon: ''
+is_published: true
+pills:
+- icon: ''
+  label: ''
+  prompt: ''
+project_id: EBQRbztqpjTFL97LWhyI
+published_at: 2025-02-17 07:09:51.994000
+requirements:
+- description: ''
+  type: ''
+slug: landing-page
+storage:
+  compression_enabled: null
+  gcs_path: null
+  last_sync: null
+  max_file_size_mb: null
+  size_bytes: null
+title: Landing Page
+tools:
+- name: ''
+  role: ''
+  type: ''
+  version: ''
+updated_at: 2025-02-16 19:09:51.994000
