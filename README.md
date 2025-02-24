@@ -1,8 +1,16 @@
-# memex-nextjs-shadcn-starter
+# Landing Page Starter Kit
 
 ## Overview
 
-**memex-nextjs-shadcn-starter** is a modern Next.js starter template built with TypeScript and styled using Tailwind CSS. Inspired by the Shadcn UI pattern and powered by Radix UI primitives, this project comes with a comprehensive library of reusable UI components that accelerate building production-ready user interfaces.
+This template is a modern Next.js starter kit built with TypeScript and styled using Tailwind CSS. Inspired by the Shadcn UI pattern and powered by Radix UI primitives, this project comes with a comprehensive library of reusable UI components that accelerate building production-ready user interfaces.
+
+## Potential app functionality expansions to explore
+
+Here are some ideas of how to expand this template after you get it up and running:
+- Give Memex a specific topic or idea and let it come up with a first draft of your website
+- Update layouts, colors, components and sections
+- Add authentication for admin usage
+
 
 ## Features
 
@@ -12,22 +20,11 @@
 - **Modern Layout**: A clean and responsive global layout defined in `layout.tsx` with integrated Google Fonts (Inter) and essential meta tags.
 - **Developer Experience**: Organized file structure and scalable components for rapid development.
 
-## File Structure
+## Quick start
 
-- **app/**
-  - **`page.tsx`**  
-    The entry point of the application. It displays a centered message ("Start prompting.") and serves as a placeholder for your home page content.
-    
-  - **`layout.tsx`**  
-    Defines the root layout of your app. It imports global styles, applies typography using the Inter font, and sets essential metadata.
-    
-  - **`globals.css`**  
-    Contains Tailwind CSS directives along with custom CSS variables and base styles. It defines a comprehensive theming system for light and dark modes.
+Just ask Memex to run this app locally and it will take care of the rest! If you run into any errors, just point Memex to fix them.
 
-- **components/**  
-  This directory holds a rich collection of UI components—from basic inputs and buttons to more complex elements like carousels, charts, and menus—each built to work seamlessly with Tailwind CSS and styled following modern design principles.
-
-## Getting Started
+If you’d like to set up the environment and dependencies manually, follow these steps:
 
 1. **Install Dependencies**
 
@@ -49,18 +46,32 @@
    ```bash
    npm run build
    ```
+## File Structure
 
-## Customization
+- **app/**
+  - **`page.tsx`**  
+    The entry point of the application. It displays a centered message ("Start prompting.") and serves as a placeholder for your home page content.
+    
+  - **`layout.tsx`**  
+    Defines the root layout of your app. It imports global styles, applies typography using the Inter font, and sets essential metadata.
+    
+  - **`globals.css`**  
+    Contains Tailwind CSS directives along with custom CSS variables and base styles. It defines a comprehensive theming system for light and dark modes.
 
-- **Theming & Styles**  
-  Adjust global colors, spacing, and typography in `globals.css`. The file defines CSS variables for both light and dark modes.
+- **components/**  
+  This directory holds a rich collection of UI components—from basic inputs and buttons to more complex elements like carousels, charts, and menus—each built to work seamlessly with Tailwind CSS and styled following modern design principles.
 
-- **UI Components**  
-  Leverage the components in the `/components` directory to quickly assemble your application. Each component is designed to be flexible and easily customizable.
 
-## Contributing
+## Development
 
-Contributions are welcome! If you have ideas for new components, improvements, or bug fixes, please open an issue or submit a pull request.
+See Rules for AI (rendered from .memex/rules.md) for detailed development guidelines Memex will follow, including:
+- Complete setup instructions
+- Model-specific parameters
+- Error handling
+- Potential improvements
+- Development workflow
+
+You can ask Memex to update rules.md to reflect your project needs as you expand it, or set it as part of your Custom Instructions so that it does it automatically after important steps.
 
 ## License
 
